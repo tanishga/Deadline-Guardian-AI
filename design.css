@@ -1,0 +1,268 @@
+/* ==========================
+   GOOGLE FONTS
+========================== */
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap');
+
+/* ==========================
+   RESET
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* ==========================
+   BODY
+========================== */
+
+body{
+
+    background:linear-gradient(135deg,#08111f,#0f172a,#1b2d4f);
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:white;
+
+    font-family:'Inter',sans-serif;
+
+    padding:30px;
+
+}
+
+/* ==========================
+   MAIN CARD
+========================== */
+
+.container{
+
+    width:90%;
+
+    max-width:760px;
+
+    background:rgba(255,255,255,.08);
+
+    backdrop-filter:blur(18px);
+
+    border:2px solid rgba(255,255,255,.15);
+
+    border-radius:30px;
+
+    padding:40px;
+
+    text-align:center;
+
+    box-shadow:
+    0 0 15px rgba(59,130,246,.25),
+    0 0 35px rgba(59,130,246,.15),
+    0 0 60px rgba(0,0,0,.45);
+
+}
+
+/* ==========================
+   LOGO
+========================== */
+
+.logo{
+
+    width:110px;
+
+    margin-bottom:15px;
+
+}
+
+/* ==========================
+   TITLE
+========================== */
+
+h1{
+
+    font-family:'Pixelify Sans',sans-serif;
+
+    font-size:55px;
+
+    letter-spacing:2px;
+
+    margin-bottom:12px;
+
+    color:#8ecbff;
+
+}
+
+/* ==========================
+   SUBTITLE
+========================== */
+
+.subtitle{
+
+    color:#dbeafe;
+
+    font-size:18px;
+
+    margin-bottom:35px;
+
+}
+
+/* ==========================
+   SMALL HEADING
+========================== */
+
+h3{
+
+    text-align:left;
+
+    margin-bottom:10px;
+
+    font-family:'Pixelify Sans',sans-serif;
+
+    color:#8ecbff;
+
+}
+
+/* ==========================
+   TEXTAREA
+========================== */
+
+textarea{
+
+    width:100%;
+
+    height:180px;
+
+    resize:none;
+
+    border:none;
+
+    outline:none;
+
+    border-radius:20px;
+
+    padding:20px;
+
+    background:#152238;
+
+    color:white;
+
+    font-size:16px;
+
+    margin-bottom:25px;
+
+    font-family:'Inter',sans-serif;
+
+}
+
+textarea::placeholder{
+    color:#9aa3b5;
+    opacity:1;
+    white-space:pre-line;
+}
+
+/* ==========================
+   BUTTON
+========================== */
+
+button{
+
+    background:#3b82f6;
+
+    color:white;
+
+    border:none;
+
+    border-radius:15px;
+
+    padding:15px 35px;
+
+    font-size:18px;
+
+    font-family:'Pixelify Sans',sans-serif;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+button:hover{
+
+    transform:translateY(-3px);
+
+    background:#2563eb;
+
+    box-shadow:0 0 20px rgba(59,130,246,.6);
+
+}
+
+/* ==========================
+   OUTPUT
+========================== */
+
+.output-box{
+
+    margin-top:35px;
+
+    background:#152238;
+
+    border-radius:20px;
+
+    padding:25px;
+
+    text-align:left;
+
+}
+
+h2{
+
+    font-family:'Pixelify Sans',sans-serif;
+
+    color:#8ecbff;
+
+}
+
+#result{
+
+    margin-top:15px;
+
+    line-height:1.8;
+
+    color:#f1f5f9;
+
+    width: 100%;
+
+    box-sizing: border-box;
+
+    overflow-wrap: break-word;
+
+}
+
+/* ==========================
+   FOOTER
+========================== */
+
+footer{
+
+    margin-top:35px;
+
+    color:#94a3b8;
+
+    font-size:14px;
+
+}
+
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    width: 100%;
+    margin: 0;
+    font-family: inherit;
+    font-size: 18px;
+    color: white;
+}

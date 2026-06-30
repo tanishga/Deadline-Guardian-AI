@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deadline Guardian AI</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+
+<body>
+    <div class="container">
+        <img src="logo.png" alt="Deadline Guardian AI Logo" class="logo">
+        <h1>Deadline Guardian AI</h1>
+        <p class="subtitle">
+            Your AI-powered productivity companion.
+        </p>
+
+        <h3>Enter your Task</h3>
+
+        <textarea id="TaskInput" placeholder="Example:
+        Task Name : Complete Chemistry Assignment
+        Deadline : Tomorrow 5:00 PM
+        Estimated time : 3 hours"></textarea>
+
+        <button onclick="analyseTask()">
+            Analyse with Gemini
+        </button>
+
+        <div id="output" class="output-box">
+            <h2>Gemini's Action Plan</h2>
+            <div id="result">
+                Your personalised AI plan will appear here...
+            </div>
+
+        </div>
+
+        <footer>Powered by Gemini</footer>
+
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
